@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e80edd1218824543ba137388eefaa9ba" Name="Diagram1">
+        <EntityTypeShape EntityType="HospitalModel.Departments" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.Medecine_Category" Width="1.5" PointX="1.5" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.Medicines" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.MedicineStock" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.Orders" Width="1.5" PointX="8.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.Roles" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.Status" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.Users" Width="1.5" PointX="6" PointY="3.125" IsExpanded="true" />
+        <AssociationConnector Association="HospitalModel.FK_MedicineStock_Departments" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK_Users_Departments" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK_Medicines_Medecine_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK_MedicineStock_Medicines" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK_Orders_Medicines" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK_Orders_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK_Orders_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK_Users_Roles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
